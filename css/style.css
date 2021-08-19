@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'), url('fonts/BebasNeueRegular.woff2') format('woff2'), url('fonts/BebasNeueRegular.woff') format('woff');
+    src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'), url('../fonts/BebasNeueRegular.woff2') format('woff2'), url('../fonts/BebasNeueRegular.woff') format('woff');
     font-display: swap;
 }
 
@@ -94,6 +94,10 @@ body {
 }
 
 .home-image path:hover {
+    opacity: 1;
+}
+
+path.current-floor {
     opacity: 1;
 }
 
